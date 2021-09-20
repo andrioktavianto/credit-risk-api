@@ -8,6 +8,24 @@ This API can be used to predict probability of loan default using Logistic Regre
 python app.py
 ```
 
+## URL Params
+
+## URL Params
+
+Fields | Description | Data Type | Example Value | Null Allowed
+------|-------------|-------|---------|---------
+age | Age | Integer | 22 | Yes
+income | Annual Income | Integer | 6000 | Yes 
+home_ownership | Home ownership | Categorical | 'RENT', 'MORTGAGE', 'OWN', or 'OTHER' | No
+employment_length | Employment length (in years) | Integer | 5 | Yes
+loan_intent | Loan intention | Categorical | 'PERSONAL', 'EDUCATION', 'MEDICAL', 'VENTURE', 'HOMEIMPROVEMENT', or 'DEBTCONSOLIDATION' | No
+loan_grade | Loan grade | Categorical | 'A', 'B', 'C, 'D', 'E', 'F', or 'G' | No
+loan_amount | Loan amount | Integer | 1000 | Yes
+loan_interest_rate | Loan interest rate | Float | 5.7 | Yes
+loan_percent_income | Loan percentage to income | Float | 0.15 | Yes
+default_file | Has this specific person has been default on loan before? | Categorical | 'Y', or 'N' | No
+credit_history_length | Credit history length | Integer | 3 | Yes
+
 ## API Usage
 
 `POST /predict`
