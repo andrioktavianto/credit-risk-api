@@ -1,6 +1,6 @@
 # Credit Risk API
 
-This API can be used to predict probability of loan default. Made using Flask and Python. 
+This API can be used to predict probability of loan default using Logistic Regression and Weight of Evidence (WOE). Made using Flask and Python. 
 
 ## Running API
 
