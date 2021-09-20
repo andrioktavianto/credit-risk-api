@@ -14,9 +14,9 @@ Fields | Description | Data Type | Example Value | Null Allowed
 ------|-------------|-------|---------|---------
 age | Age | Integer | 22 | Yes
 income | Annual Income | Integer | 6000 | Yes 
-home_ownership | Home ownership | Categorical | 'RENT', 'MORTGAGE', 'OWN', or 'OTHER' | No
+home_ownership | Home ownership | Categorical | 'MORTGAGE', 'OTHER', 'OWN', or 'RENT' | No
 employment_length | Employment length (in years) | Integer | 5 | Yes
-loan_intent | Loan intention | Categorical | 'PERSONAL', 'EDUCATION', 'MEDICAL', 'VENTURE', 'HOMEIMPROVEMENT', or 'DEBTCONSOLIDATION' | No
+loan_intent | Loan intention | Categorical | 'DEBTCONSOLIDATION', 'EDUCATION', 'HOMEIMPROVEMENT', 'MEDICAL', 'PERSONAL', or 'VENTURE' | No
 loan_grade | Loan grade | Categorical | 'A', 'B', 'C, 'D', 'E', 'F', or 'G' | No
 loan_amount | Loan amount | Integer | 1000 | Yes
 loan_interest_rate | Loan interest rate | Float | 5.7 | Yes
