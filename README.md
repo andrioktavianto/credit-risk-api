@@ -10,8 +10,6 @@ python app.py
 
 ## URL Params
 
-## URL Params
-
 Fields | Description | Data Type | Example Value | Null Allowed
 ------|-------------|-------|---------|---------
 age | Age | Integer | 22 | Yes
